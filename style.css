@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: url(/imagens/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.container{
+    width: 500px;
+    height: 800px;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 2% 0;
+    background: rgba(255, 255, 255, 0.7);
+    position: relative;
+    box-shadow:  3px 3px 80px black;
+}
+header{
+    text-align: center;
+    margin: 20px 0;
+}
+
+p, label{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+
+#crianca,#adulto, #duracao{
+    display: flex;
+    border-radius: 7px;
+    border-style: none;
+    padding: 7px;
+    width: 100%;
+}
+form p{
+    margin: 0 0 20px 0;
+}
+#submit{
+    margin: 10px auto;
+    display: block;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background: #87CEFA;
+}
+
+footer{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:0;
+}
+
+
+.imagem{
+    width: 40px;
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.inline1{
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+
+}
+
+.inline2{
+    display: flex;
+    align-items: center;
+    
+}
