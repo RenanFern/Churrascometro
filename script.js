@@ -5,10 +5,10 @@
 // Crianças valem por 0,5
 
 
-var inputAdultos = document.getElementById('adulto');
-var inputCriancas = document.getElementById('crianca');
-var inputDuracao = document.getElementById('duracao');
-var resultado = document.getElementById ('resultado')
+let inputAdultos = document.getElementById('adulto');
+let inputCriancas = document.getElementById('crianca');
+let inputDuracao = document.getElementById('duracao');
+let resultado = document.getElementById ('resultado')
 
 
 function calcular(){
